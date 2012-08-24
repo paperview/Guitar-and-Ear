@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0DF452158CFB7E00A84894 /* GIColorsAndViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0DF451158CFB7E00A84894 /* GIColorsAndViews.m */; };
+		4A153527159A1B3C00E6C01F /* AGuiA#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15350E159A1AB100E6C01F /* AGuiA#3.caf */; };
+		4A153528159A1B3C00E6C01F /* AGuiA#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153510159A1B2E00E6C01F /* AGuiA#4.caf */; };
+		4A153529159A1B3C00E6C01F /* AGuiA3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153511159A1B2E00E6C01F /* AGuiA3.caf */; };
+		4A15352A159A1B3C00E6C01F /* AGuiA4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153512159A1B2E00E6C01F /* AGuiA4.caf */; };
+		4A15352B159A1B3C00E6C01F /* AGuiB3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153513159A1B2E00E6C01F /* AGuiB3.caf */; };
+		4A15352C159A1B3C00E6C01F /* AGuiB4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153514159A1B2E00E6C01F /* AGuiB4.caf */; };
+		4A15352D159A1B3C00E6C01F /* AGuiC#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153515159A1B2E00E6C01F /* AGuiC#3.caf */; };
+		4A15352E159A1B3C00E6C01F /* AGuiC#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153516159A1B2E00E6C01F /* AGuiC#4.caf */; };
+		4A15352F159A1B3C00E6C01F /* AGuiC3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153517159A1B2E00E6C01F /* AGuiC3.caf */; };
+		4A153530159A1B3C00E6C01F /* AGuiC4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153518159A1B2E00E6C01F /* AGuiC4.caf */; };
+		4A153531159A1B3C00E6C01F /* AGuiD#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153519159A1B2E00E6C01F /* AGuiD#3.caf */; };
+		4A153532159A1B3C00E6C01F /* AGuiD#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351A159A1B2E00E6C01F /* AGuiD#4.caf */; };
+		4A153533159A1B3C00E6C01F /* AGuiD3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351B159A1B2E00E6C01F /* AGuiD3.caf */; };
+		4A153534159A1B3C00E6C01F /* AGuiD4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351C159A1B2E00E6C01F /* AGuiD4.caf */; };
+		4A153535159A1B3C00E6C01F /* AGuiE3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351D159A1B2E00E6C01F /* AGuiE3.caf */; };
+		4A153536159A1B3C00E6C01F /* AGuiE4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351E159A1B2E00E6C01F /* AGuiE4.caf */; };
+		4A153537159A1B3C00E6C01F /* AGuiF#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A15351F159A1B2E00E6C01F /* AGuiF#3.caf */; };
+		4A153538159A1B3C00E6C01F /* AGuiF#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153520159A1B2E00E6C01F /* AGuiF#4.caf */; };
+		4A153539159A1B3C00E6C01F /* AGuiF3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153521159A1B2E00E6C01F /* AGuiF3.caf */; };
+		4A15353A159A1B3C00E6C01F /* AGuiF4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153522159A1B2E00E6C01F /* AGuiF4.caf */; };
+		4A15353B159A1B3C00E6C01F /* AGuiG#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153523159A1B2E00E6C01F /* AGuiG#3.caf */; };
+		4A15353C159A1B3C00E6C01F /* AGuiG#4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153524159A1B2E00E6C01F /* AGuiG#4.caf */; };
+		4A15353D159A1B3C00E6C01F /* AGuiG3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153525159A1B2E00E6C01F /* AGuiG3.caf */; };
+		4A15353E159A1B3C00E6C01F /* AGuiG4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A153526159A1B2E00E6C01F /* AGuiG4.caf */; };
+		4A189CF01588FB3D00F2FB6B /* highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A189CEF1588FB3D00F2FB6B /* highlighted.png */; };
+		4A2497E915A1FF5F00F119DD /* GIBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2497DB15A1F8E900F119DD /* GIBackground1.png */; };
+		4A2742BE15A291C100E35715 /* GIIntervalBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742B615A291C100E35715 /* GIIntervalBar.png */; };
+		4A2742BF15A291C100E35715 /* GIIntervalSound.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742B715A291C100E35715 /* GIIntervalSound.png */; };
+		4A2742C015A291C100E35715 /* GIIntervalSoundH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742B815A291C100E35715 /* GIIntervalSoundH.png */; };
+		4A2742C115A291C100E35715 /* GIIntervalPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742B915A291C100E35715 /* GIIntervalPlay.png */; };
+		4A2742C215A291C100E35715 /* GIIntervalPlayH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742BA15A291C100E35715 /* GIIntervalPlayH.png */; };
+		4A2742C315A291C100E35715 /* GIIntervalSelectScale.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742BB15A291C100E35715 /* GIIntervalSelectScale.png */; };
+		4A2742C415A291C100E35715 /* GIIntervalSelectScaleH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742BC15A291C100E35715 /* GIIntervalSelectScaleH.png */; };
+		4A2742C515A291C100E35715 /* GIIntervalBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2742BD15A291C100E35715 /* GIIntervalBackground.png */; };
+		4A2AF54215A21F2B009A75E1 /* BarGlare1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A2AF54115A21F2B009A75E1 /* BarGlare1.png */; };
+		4A37B8CD15A2A12200DB14B9 /* GIIntervalLogScaleH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A37B8CB15A2A12200DB14B9 /* GIIntervalLogScaleH.png */; };
+		4A37B8CE15A2A12200DB14B9 /* GIIntervalLogScale.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A37B8CC15A2A12200DB14B9 /* GIIntervalLogScale.png */; };
+		4A42C93115A8F4FD00685147 /* GIMMEar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C92D15A8F4FD00685147 /* GIMMEar.png */; };
+		4A42C93215A8F4FD00685147 /* GIMMEarH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C92E15A8F4FD00685147 /* GIMMEarH.png */; };
+		4A42C93815A8F69700685147 /* GIMMEarTwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C93615A8F69700685147 /* GIMMEarTwo.png */; };
+		4A42C93915A8F69700685147 /* GIMMGetTwoH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A42C93715A8F69700685147 /* GIMMGetTwoH.png */; };
+		4A58352215882F8000DCE3BD /* GIScaleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58352115882F8000DCE3BD /* GIScaleSelector.m */; };
+		4A58352615883A5700DCE3BD /* GIChordLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58352515883A5700DCE3BD /* GIChordLibrary.m */; };
+		4A58352B15883F6200DCE3BD /* GIBarCreatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58352A15883F6200DCE3BD /* GIBarCreatorView.m */; };
+		4A58352E1588487600DCE3BD /* GIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58352D1588487600DCE3BD /* GIPickerView.m */; };
+		4A6436811587E9C400558475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6436801587E9C400558475 /* UIKit.framework */; };
+		4A6436831587E9C400558475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6436821587E9C400558475 /* Foundation.framework */; };
+		4A6436851587E9C400558475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6436841587E9C400558475 /* CoreGraphics.framework */; };
+		4A64368B1587E9C400558475 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6436891587E9C400558475 /* InfoPlist.strings */; };
+		4A64368D1587E9C400558475 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A64368C1587E9C400558475 /* main.m */; };
+		4A6436911587E9C400558475 /* GIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6436901587E9C400558475 /* GIAppDelegate.m */; };
+		4A6436991587EAC800558475 /* GIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6436981587EAC800558475 /* GIViewController.m */; };
+		4A6436BF1587F1A500558475 /* GIChroma.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6436BE1587F1A500558475 /* GIChroma.m */; };
+		4A6436C11587F1E900558475 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6436C01587F1E800558475 /* CoreMedia.framework */; };
+		4A6436C31587F1F200558475 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6436C21587F1F100558475 /* AVFoundation.framework */; };
+		4A666DD7159A17E30078401D /* C3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DCB159A17BF0078401D /* C3.caf */; };
+		4A666DD8159A17E30078401D /* PiaA#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DCC159A17CC0078401D /* PiaA#3.caf */; };
+		4A666DD9159A17E30078401D /* PiaA3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DCD159A17CC0078401D /* PiaA3.caf */; };
+		4A666DDA159A17E30078401D /* PiaB3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DCE159A17CC0078401D /* PiaB3.caf */; };
+		4A666DDB159A17E30078401D /* PiaC#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DCF159A17CC0078401D /* PiaC#3.caf */; };
+		4A666DDC159A17E30078401D /* PiaD#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD0159A17CC0078401D /* PiaD#3.caf */; };
+		4A666DDD159A17E30078401D /* PiaD3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD1159A17CC0078401D /* PiaD3.caf */; };
+		4A666DDE159A17E30078401D /* PiaE3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD2159A17CC0078401D /* PiaE3.caf */; };
+		4A666DDF159A17E30078401D /* PiaF#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD3159A17CC0078401D /* PiaF#3.caf */; };
+		4A666DE0159A17E30078401D /* PiaF3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD4159A17CC0078401D /* PiaF3.caf */; };
+		4A666DE1159A17E30078401D /* PiaG#3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD5159A17CC0078401D /* PiaG#3.caf */; };
+		4A666DE2159A17E30078401D /* PiaG3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DD6159A17CC0078401D /* PiaG3.caf */; };
+		4A666DE4159A18560078401D /* EmptyCaf.caf in Resources */ = {isa = PBXBuildFile; fileRef = 4A666DE3159A18510078401D /* EmptyCaf.caf */; };
+		4A868DB3158BF17500991E3B /* GITempoConstructs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A64369D1587EE1E00558475 /* GITempoConstructs.m */; };
+		4A868DB5158BF17700991E3B /* GIScaleConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A64369C1587EC9700558475 /* GIScaleConstants.m */; };
+		4A8AEE1315A0A09A008B6AF7 /* GIMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AEE1215A0A09A008B6AF7 /* GIMainMenuViewController.m */; };
+		4A8B7847159E41D000FB031A /* GIIntervalTrainingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8B7846159E41D000FB031A /* GIIntervalTrainingViewController.m */; };
+		4A98599B15A2BBB30089F3F3 /* GIBarBackgroundRedo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598315A2BBB30089F3F3 /* GIBarBackgroundRedo.png */; };
+		4A98599C15A2BBB30089F3F3 /* GIC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598415A2BBB30089F3F3 /* GIC.png */; };
+		4A98599D15A2BBB30089F3F3 /* GICH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598515A2BBB30089F3F3 /* GICH.png */; };
+		4A98599E15A2BBB30089F3F3 /* GIK.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598615A2BBB30089F3F3 /* GIK.png */; };
+		4A98599F15A2BBB30089F3F3 /* GIKH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598715A2BBB30089F3F3 /* GIKH.png */; };
+		4A9859A015A2BBB30089F3F3 /* GILC.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598815A2BBB30089F3F3 /* GILC.png */; };
+		4A9859A115A2BBB30089F3F3 /* GILCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598915A2BBB30089F3F3 /* GILCH.png */; };
+		4A9859A215A2BBB30089F3F3 /* GILK.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598A15A2BBB30089F3F3 /* GILK.png */; };
+		4A9859A315A2BBB30089F3F3 /* GILKH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598B15A2BBB30089F3F3 /* GILKH.png */; };
+		4A9859A415A2BBB30089F3F3 /* GILT.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598C15A2BBB30089F3F3 /* GILT.png */; };
+		4A9859A515A2BBB30089F3F3 /* GILTH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598D15A2BBB30089F3F3 /* GILTH.png */; };
+		4A9859A615A2BBB30089F3F3 /* GIOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598E15A2BBB30089F3F3 /* GIOR.png */; };
+		4A9859A715A2BBB30089F3F3 /* GIORH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98598F15A2BBB30089F3F3 /* GIORH.png */; };
+		4A9859A815A2BBB30089F3F3 /* GIPB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599015A2BBB30089F3F3 /* GIPB.png */; };
+		4A9859AA15A2BBB30089F3F3 /* GIPBH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599215A2BBB30089F3F3 /* GIPBH.png */; };
+		4A9859AB15A2BBB30089F3F3 /* GISmallB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599315A2BBB30089F3F3 /* GISmallB.png */; };
+		4A9859AC15A2BBB30089F3F3 /* GISmallBH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599415A2BBB30089F3F3 /* GISmallBH.png */; };
+		4A9859AD15A2BBB30089F3F3 /* GISmallMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599515A2BBB30089F3F3 /* GISmallMM.png */; };
+		4A9859AE15A2BBB30089F3F3 /* GISmallMMH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599615A2BBB30089F3F3 /* GISmallMMH.png */; };
+		4A9859AF15A2BBB30089F3F3 /* GISmallNB.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599715A2BBB30089F3F3 /* GISmallNB.png */; };
+		4A9859B015A2BBB30089F3F3 /* GISmallNBH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599815A2BBB30089F3F3 /* GISmallNBH.png */; };
+		4A9859B115A2BBB30089F3F3 /* GISmallST.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599915A2BBB30089F3F3 /* GISmallST.png */; };
+		4A9859B215A2BBB30089F3F3 /* GISmallSTH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A98599A15A2BBB30089F3F3 /* GISmallSTH.png */; };
+		4AA5EE2215A37054007F9B94 /* GIPreBarOptionsLH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE1C15A37054007F9B94 /* GIPreBarOptionsLH.png */; };
+		4AA5EE2315A37054007F9B94 /* GIPreBarOptionsL.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE1D15A37054007F9B94 /* GIPreBarOptionsL.png */; };
+		4AA5EE2415A37054007F9B94 /* GIPreBarOptionsQPH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE1E15A37054007F9B94 /* GIPreBarOptionsQPH.png */; };
+		4AA5EE2515A37054007F9B94 /* GIPreBarOptionsQP.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE1F15A37054007F9B94 /* GIPreBarOptionsQP.png */; };
+		4AA5EE2615A37054007F9B94 /* GIPreBarOptionsNew.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE2015A37054007F9B94 /* GIPreBarOptionsNew.png */; };
+		4AA5EE2715A37054007F9B94 /* GIPreBarOptionsNewH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA5EE2115A37054007F9B94 /* GIPreBarOptionsNewH.png */; };
+		4AABAA6115A23CD8002B61BF /* GIBackW.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AABAA5F15A23CD8002B61BF /* GIBackW.png */; };
+		4AABAA6215A23CD8002B61BF /* GIBackWPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AABAA6015A23CD8002B61BF /* GIBackWPressed.png */; };
+		4AAF0F1A159262CF00F4AC7B /* GIGuitarSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF0F19159262CF00F4AC7B /* GIGuitarSource.m */; };
+		4AB8A42615A26857008640D8 /* GISoloViewBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8A42115A26857008640D8 /* GISoloViewBar.png */; };
+		4AB8A42715A26857008640D8 /* GISoloViewOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8A42215A26857008640D8 /* GISoloViewOptions.png */; };
+		4AB8A42815A26857008640D8 /* GISoloViewOptionsPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8A42315A26857008640D8 /* GISoloViewOptionsPressed.png */; };
+		4AB8A42915A26857008640D8 /* GISoloViewPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8A42415A26857008640D8 /* GISoloViewPlay.png */; };
+		4AB8A42A15A26857008640D8 /* GISoloViewPlayPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AB8A42515A26857008640D8 /* GISoloViewPlayPressed.png */; };
+		4AB8E13F158E8BF800B8A349 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB8E13E158E8BF800B8A349 /* QuartzCore.framework */; };
+		4AB8E143158EA7EC00B8A349 /* GIFretView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8E142158EA7EC00B8A349 /* GIFretView.m */; };
+		4AC3392415A2797C00245CF3 /* GISoloOptionsSave.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392215A2797C00245CF3 /* GISoloOptionsSave.png */; };
+		4AC3392515A2797C00245CF3 /* GISoloOptionsSaveH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392315A2797C00245CF3 /* GISoloOptionsSaveH.png */; };
+		4AC3392815A2799200245CF3 /* GISoloViewOptionsMMH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392715A2799200245CF3 /* GISoloViewOptionsMMH.png */; };
+		4AC3392A15A2799800245CF3 /* GISoloOptionsMM.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392915A2799800245CF3 /* GISoloOptionsMM.png */; };
+		4AC3392D15A279A400245CF3 /* GISoloOptionsCancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392B15A279A400245CF3 /* GISoloOptionsCancel.png */; };
+		4AC3392E15A279A400245CF3 /* GISoloOptionsCancelH.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC3392C15A279A400245CF3 /* GISoloOptionsCancelH.png */; };
+		4AC7726315A23E0F00D669A6 /* GISetTempoWh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726115A23E0F00D669A6 /* GISetTempoWh.png */; };
+		4AC7726415A23E0F00D669A6 /* GISetTempoWhPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726215A23E0F00D669A6 /* GISetTempoWhPressed.png */; };
+		4AC7726815A23E2D00D669A6 /* GIReadyWh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726615A23E2D00D669A6 /* GIReadyWh.png */; };
+		4AC7726915A23E2D00D669A6 /* GIReadyWhPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726715A23E2D00D669A6 /* GIReadyWhPressed.png */; };
+		4AC7726E15A23E5000D669A6 /* GIMainMenuWh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726A15A23E5000D669A6 /* GIMainMenuWh.png */; };
+		4AC7726F15A23E5000D669A6 /* GIMainMenuWhPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726B15A23E5000D669A6 /* GIMainMenuWhPressed.png */; };
+		4AC7727015A23E5000D669A6 /* GINewBarWh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726C15A23E5000D669A6 /* GINewBarWh.png */; };
+		4AC7727115A23E5000D669A6 /* GINewBarWhPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7726D15A23E5000D669A6 /* GINewBarWhPressed.png */; };
+		4ADD089C15A26CCB004AAB1D /* GISoloViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD089B15A26CCB004AAB1D /* GISoloViewBackground.png */; };
+		4AE4B189158F8E4F00E43742 /* GIFretBoardGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE4B188158F8E4F00E43742 /* GIFretBoardGraphics.m */; };
+		4AE57CEB158EB9A900732E71 /* GISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE57CEA158EB9A900732E71 /* GISwitchViewController.m */; };
+		4AE57CEF158EB9E700732E71 /* GISoloViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE57CEE158EB9E700732E71 /* GISoloViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A0DF450158CFB7E00A84894 /* GIColorsAndViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIColorsAndViews.h; sourceTree = "<group>"; };
+		4A0DF451158CFB7E00A84894 /* GIColorsAndViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIColorsAndViews.m; sourceTree = "<group>"; };
+		4A15350E159A1AB100E6C01F /* AGuiA#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiA#3.caf"; sourceTree = "<group>"; };
+		4A153510159A1B2E00E6C01F /* AGuiA#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiA#4.caf"; sourceTree = "<group>"; };
+		4A153511159A1B2E00E6C01F /* AGuiA3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiA3.caf; sourceTree = "<group>"; };
+		4A153512159A1B2E00E6C01F /* AGuiA4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiA4.caf; sourceTree = "<group>"; };
+		4A153513159A1B2E00E6C01F /* AGuiB3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiB3.caf; sourceTree = "<group>"; };
+		4A153514159A1B2E00E6C01F /* AGuiB4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiB4.caf; sourceTree = "<group>"; };
+		4A153515159A1B2E00E6C01F /* AGuiC#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiC#3.caf"; sourceTree = "<group>"; };
+		4A153516159A1B2E00E6C01F /* AGuiC#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiC#4.caf"; sourceTree = "<group>"; };
+		4A153517159A1B2E00E6C01F /* AGuiC3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiC3.caf; sourceTree = "<group>"; };
+		4A153518159A1B2E00E6C01F /* AGuiC4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiC4.caf; sourceTree = "<group>"; };
+		4A153519159A1B2E00E6C01F /* AGuiD#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiD#3.caf"; sourceTree = "<group>"; };
+		4A15351A159A1B2E00E6C01F /* AGuiD#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiD#4.caf"; sourceTree = "<group>"; };
+		4A15351B159A1B2E00E6C01F /* AGuiD3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiD3.caf; sourceTree = "<group>"; };
+		4A15351C159A1B2E00E6C01F /* AGuiD4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiD4.caf; sourceTree = "<group>"; };
+		4A15351D159A1B2E00E6C01F /* AGuiE3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiE3.caf; sourceTree = "<group>"; };
+		4A15351E159A1B2E00E6C01F /* AGuiE4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiE4.caf; sourceTree = "<group>"; };
+		4A15351F159A1B2E00E6C01F /* AGuiF#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiF#3.caf"; sourceTree = "<group>"; };
+		4A153520159A1B2E00E6C01F /* AGuiF#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiF#4.caf"; sourceTree = "<group>"; };
+		4A153521159A1B2E00E6C01F /* AGuiF3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiF3.caf; sourceTree = "<group>"; };
+		4A153522159A1B2E00E6C01F /* AGuiF4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiF4.caf; sourceTree = "<group>"; };
+		4A153523159A1B2E00E6C01F /* AGuiG#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiG#3.caf"; sourceTree = "<group>"; };
+		4A153524159A1B2E00E6C01F /* AGuiG#4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AGuiG#4.caf"; sourceTree = "<group>"; };
+		4A153525159A1B2E00E6C01F /* AGuiG3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiG3.caf; sourceTree = "<group>"; };
+		4A153526159A1B2E00E6C01F /* AGuiG4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AGuiG4.caf; sourceTree = "<group>"; };
+		4A189CEF1588FB3D00F2FB6B /* highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlighted.png; sourceTree = "<group>"; };
+		4A2497DB15A1F8E900F119DD /* GIBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIBackground1.png; sourceTree = "<group>"; };
+		4A2742B615A291C100E35715 /* GIIntervalBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalBar.png; sourceTree = "<group>"; };
+		4A2742B715A291C100E35715 /* GIIntervalSound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalSound.png; sourceTree = "<group>"; };
+		4A2742B815A291C100E35715 /* GIIntervalSoundH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalSoundH.png; sourceTree = "<group>"; };
+		4A2742B915A291C100E35715 /* GIIntervalPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalPlay.png; sourceTree = "<group>"; };
+		4A2742BA15A291C100E35715 /* GIIntervalPlayH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalPlayH.png; sourceTree = "<group>"; };
+		4A2742BB15A291C100E35715 /* GIIntervalSelectScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalSelectScale.png; sourceTree = "<group>"; };
+		4A2742BC15A291C100E35715 /* GIIntervalSelectScaleH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalSelectScaleH.png; sourceTree = "<group>"; };
+		4A2742BD15A291C100E35715 /* GIIntervalBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalBackground.png; sourceTree = "<group>"; };
+		4A2AF54115A21F2B009A75E1 /* BarGlare1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BarGlare1.png; sourceTree = "<group>"; };
+		4A37B8CB15A2A12200DB14B9 /* GIIntervalLogScaleH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalLogScaleH.png; sourceTree = "<group>"; };
+		4A37B8CC15A2A12200DB14B9 /* GIIntervalLogScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIIntervalLogScale.png; sourceTree = "<group>"; };
+		4A42C92D15A8F4FD00685147 /* GIMMEar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMMEar.png; sourceTree = "<group>"; };
+		4A42C92E15A8F4FD00685147 /* GIMMEarH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMMEarH.png; sourceTree = "<group>"; };
+		4A42C93615A8F69700685147 /* GIMMEarTwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMMEarTwo.png; sourceTree = "<group>"; };
+		4A42C93715A8F69700685147 /* GIMMGetTwoH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMMGetTwoH.png; sourceTree = "<group>"; };
+		4A58352015882F8000DCE3BD /* GIScaleSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIScaleSelector.h; sourceTree = "<group>"; };
+		4A58352115882F8000DCE3BD /* GIScaleSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIScaleSelector.m; sourceTree = "<group>"; };
+		4A58352415883A5700DCE3BD /* GIChordLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIChordLibrary.h; sourceTree = "<group>"; };
+		4A58352515883A5700DCE3BD /* GIChordLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIChordLibrary.m; sourceTree = "<group>"; };
+		4A58352915883F6200DCE3BD /* GIBarCreatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIBarCreatorView.h; sourceTree = "<group>"; };
+		4A58352A15883F6200DCE3BD /* GIBarCreatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIBarCreatorView.m; sourceTree = "<group>"; };
+		4A58352C1588487600DCE3BD /* GIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIPickerView.h; sourceTree = "<group>"; };
+		4A58352D1588487600DCE3BD /* GIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIPickerView.m; sourceTree = "<group>"; };
+		4A64367C1587E9C400558475 /* GuitarIdea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarIdea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6436801587E9C400558475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A6436821587E9C400558475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A6436841587E9C400558475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A6436881587E9C400558475 /* GuitarIdea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuitarIdea-Info.plist"; sourceTree = "<group>"; };
+		4A64368A1587E9C400558475 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A64368C1587E9C400558475 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A64368E1587E9C400558475 /* GuitarIdea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuitarIdea-Prefix.pch"; sourceTree = "<group>"; };
+		4A64368F1587E9C400558475 /* GIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIAppDelegate.h; sourceTree = "<group>"; };
+		4A6436901587E9C400558475 /* GIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIAppDelegate.m; sourceTree = "<group>"; };
+		4A6436971587EAC800558475 /* GIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIViewController.h; sourceTree = "<group>"; };
+		4A6436981587EAC800558475 /* GIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIViewController.m; sourceTree = "<group>"; };
+		4A64369B1587EC9700558475 /* GIScaleConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIScaleConstants.h; sourceTree = "<group>"; };
+		4A64369C1587EC9700558475 /* GIScaleConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIScaleConstants.m; sourceTree = "<group>"; };
+		4A64369D1587EE1E00558475 /* GITempoConstructs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITempoConstructs.m; sourceTree = "<group>"; };
+		4A64369E1587EE1E00558475 /* GITempoConstructs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GITempoConstructs.h; sourceTree = "<group>"; };
+		4A6436BD1587F1A500558475 /* GIChroma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIChroma.h; sourceTree = "<group>"; };
+		4A6436BE1587F1A500558475 /* GIChroma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIChroma.m; sourceTree = "<group>"; };
+		4A6436C01587F1E800558475 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4A6436C21587F1F100558475 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4A666DCB159A17BF0078401D /* C3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = C3.caf; sourceTree = "<group>"; };
+		4A666DCC159A17CC0078401D /* PiaA#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PiaA#3.caf"; sourceTree = "<group>"; };
+		4A666DCD159A17CC0078401D /* PiaA3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaA3.caf; sourceTree = "<group>"; };
+		4A666DCE159A17CC0078401D /* PiaB3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaB3.caf; sourceTree = "<group>"; };
+		4A666DCF159A17CC0078401D /* PiaC#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PiaC#3.caf"; sourceTree = "<group>"; };
+		4A666DD0159A17CC0078401D /* PiaD#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PiaD#3.caf"; sourceTree = "<group>"; };
+		4A666DD1159A17CC0078401D /* PiaD3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaD3.caf; sourceTree = "<group>"; };
+		4A666DD2159A17CC0078401D /* PiaE3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaE3.caf; sourceTree = "<group>"; };
+		4A666DD3159A17CC0078401D /* PiaF#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PiaF#3.caf"; sourceTree = "<group>"; };
+		4A666DD4159A17CC0078401D /* PiaF3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaF3.caf; sourceTree = "<group>"; };
+		4A666DD5159A17CC0078401D /* PiaG#3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PiaG#3.caf"; sourceTree = "<group>"; };
+		4A666DD6159A17CC0078401D /* PiaG3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PiaG3.caf; sourceTree = "<group>"; };
+		4A666DE3159A18510078401D /* EmptyCaf.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EmptyCaf.caf; sourceTree = "<group>"; };
+		4A8AEE1115A0A09A008B6AF7 /* GIMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIMainMenuViewController.h; sourceTree = "<group>"; };
+		4A8AEE1215A0A09A008B6AF7 /* GIMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIMainMenuViewController.m; sourceTree = "<group>"; };
+		4A8B7845159E41D000FB031A /* GIIntervalTrainingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIIntervalTrainingViewController.h; sourceTree = "<group>"; };
+		4A8B7846159E41D000FB031A /* GIIntervalTrainingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIIntervalTrainingViewController.m; sourceTree = "<group>"; };
+		4A98598315A2BBB30089F3F3 /* GIBarBackgroundRedo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIBarBackgroundRedo.png; sourceTree = "<group>"; };
+		4A98598415A2BBB30089F3F3 /* GIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIC.png; sourceTree = "<group>"; };
+		4A98598515A2BBB30089F3F3 /* GICH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GICH.png; sourceTree = "<group>"; };
+		4A98598615A2BBB30089F3F3 /* GIK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIK.png; sourceTree = "<group>"; };
+		4A98598715A2BBB30089F3F3 /* GIKH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIKH.png; sourceTree = "<group>"; };
+		4A98598815A2BBB30089F3F3 /* GILC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILC.png; sourceTree = "<group>"; };
+		4A98598915A2BBB30089F3F3 /* GILCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILCH.png; sourceTree = "<group>"; };
+		4A98598A15A2BBB30089F3F3 /* GILK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILK.png; sourceTree = "<group>"; };
+		4A98598B15A2BBB30089F3F3 /* GILKH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILKH.png; sourceTree = "<group>"; };
+		4A98598C15A2BBB30089F3F3 /* GILT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILT.png; sourceTree = "<group>"; };
+		4A98598D15A2BBB30089F3F3 /* GILTH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GILTH.png; sourceTree = "<group>"; };
+		4A98598E15A2BBB30089F3F3 /* GIOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIOR.png; sourceTree = "<group>"; };
+		4A98598F15A2BBB30089F3F3 /* GIORH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIORH.png; sourceTree = "<group>"; };
+		4A98599015A2BBB30089F3F3 /* GIPB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPB.png; sourceTree = "<group>"; };
+		4A98599215A2BBB30089F3F3 /* GIPBH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPBH.png; sourceTree = "<group>"; };
+		4A98599315A2BBB30089F3F3 /* GISmallB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallB.png; sourceTree = "<group>"; };
+		4A98599415A2BBB30089F3F3 /* GISmallBH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallBH.png; sourceTree = "<group>"; };
+		4A98599515A2BBB30089F3F3 /* GISmallMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallMM.png; sourceTree = "<group>"; };
+		4A98599615A2BBB30089F3F3 /* GISmallMMH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallMMH.png; sourceTree = "<group>"; };
+		4A98599715A2BBB30089F3F3 /* GISmallNB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallNB.png; sourceTree = "<group>"; };
+		4A98599815A2BBB30089F3F3 /* GISmallNBH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallNBH.png; sourceTree = "<group>"; };
+		4A98599915A2BBB30089F3F3 /* GISmallST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallST.png; sourceTree = "<group>"; };
+		4A98599A15A2BBB30089F3F3 /* GISmallSTH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISmallSTH.png; sourceTree = "<group>"; };
+		4AA5EE1C15A37054007F9B94 /* GIPreBarOptionsLH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsLH.png; sourceTree = "<group>"; };
+		4AA5EE1D15A37054007F9B94 /* GIPreBarOptionsL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsL.png; sourceTree = "<group>"; };
+		4AA5EE1E15A37054007F9B94 /* GIPreBarOptionsQPH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsQPH.png; sourceTree = "<group>"; };
+		4AA5EE1F15A37054007F9B94 /* GIPreBarOptionsQP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsQP.png; sourceTree = "<group>"; };
+		4AA5EE2015A37054007F9B94 /* GIPreBarOptionsNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsNew.png; sourceTree = "<group>"; };
+		4AA5EE2115A37054007F9B94 /* GIPreBarOptionsNewH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIPreBarOptionsNewH.png; sourceTree = "<group>"; };
+		4AABAA5F15A23CD8002B61BF /* GIBackW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIBackW.png; sourceTree = "<group>"; };
+		4AABAA6015A23CD8002B61BF /* GIBackWPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIBackWPressed.png; sourceTree = "<group>"; };
+		4AAF0F18159262CF00F4AC7B /* GIGuitarSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIGuitarSource.h; sourceTree = "<group>"; };
+		4AAF0F19159262CF00F4AC7B /* GIGuitarSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIGuitarSource.m; sourceTree = "<group>"; };
+		4AB8A42115A26857008640D8 /* GISoloViewBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewBar.png; sourceTree = "<group>"; };
+		4AB8A42215A26857008640D8 /* GISoloViewOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewOptions.png; sourceTree = "<group>"; };
+		4AB8A42315A26857008640D8 /* GISoloViewOptionsPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewOptionsPressed.png; sourceTree = "<group>"; };
+		4AB8A42415A26857008640D8 /* GISoloViewPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewPlay.png; sourceTree = "<group>"; };
+		4AB8A42515A26857008640D8 /* GISoloViewPlayPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewPlayPressed.png; sourceTree = "<group>"; };
+		4AB8E13E158E8BF800B8A349 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AB8E141158EA7EC00B8A349 /* GIFretView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFretView.h; sourceTree = "<group>"; };
+		4AB8E142158EA7EC00B8A349 /* GIFretView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFretView.m; sourceTree = "<group>"; };
+		4AC3392215A2797C00245CF3 /* GISoloOptionsSave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloOptionsSave.png; sourceTree = "<group>"; };
+		4AC3392315A2797C00245CF3 /* GISoloOptionsSaveH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloOptionsSaveH.png; sourceTree = "<group>"; };
+		4AC3392715A2799200245CF3 /* GISoloViewOptionsMMH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewOptionsMMH.png; sourceTree = "<group>"; };
+		4AC3392915A2799800245CF3 /* GISoloOptionsMM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloOptionsMM.png; sourceTree = "<group>"; };
+		4AC3392B15A279A400245CF3 /* GISoloOptionsCancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloOptionsCancel.png; sourceTree = "<group>"; };
+		4AC3392C15A279A400245CF3 /* GISoloOptionsCancelH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloOptionsCancelH.png; sourceTree = "<group>"; };
+		4AC7726115A23E0F00D669A6 /* GISetTempoWh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISetTempoWh.png; sourceTree = "<group>"; };
+		4AC7726215A23E0F00D669A6 /* GISetTempoWhPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISetTempoWhPressed.png; sourceTree = "<group>"; };
+		4AC7726615A23E2D00D669A6 /* GIReadyWh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIReadyWh.png; sourceTree = "<group>"; };
+		4AC7726715A23E2D00D669A6 /* GIReadyWhPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIReadyWhPressed.png; sourceTree = "<group>"; };
+		4AC7726A15A23E5000D669A6 /* GIMainMenuWh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMainMenuWh.png; sourceTree = "<group>"; };
+		4AC7726B15A23E5000D669A6 /* GIMainMenuWhPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GIMainMenuWhPressed.png; sourceTree = "<group>"; };
+		4AC7726C15A23E5000D669A6 /* GINewBarWh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GINewBarWh.png; sourceTree = "<group>"; };
+		4AC7726D15A23E5000D669A6 /* GINewBarWhPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GINewBarWhPressed.png; sourceTree = "<group>"; };
+		4ADD089B15A26CCB004AAB1D /* GISoloViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GISoloViewBackground.png; sourceTree = "<group>"; };
+		4AE4B187158F8E4F00E43742 /* GIFretBoardGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFretBoardGraphics.h; sourceTree = "<group>"; };
+		4AE4B188158F8E4F00E43742 /* GIFretBoardGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFretBoardGraphics.m; sourceTree = "<group>"; };
+		4AE57CE9158EB9A900732E71 /* GISwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISwitchViewController.h; sourceTree = "<group>"; };
+		4AE57CEA158EB9A900732E71 /* GISwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISwitchViewController.m; sourceTree = "<group>"; };
+		4AE57CED158EB9E700732E71 /* GISoloViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISoloViewController.h; sourceTree = "<group>"; };
+		4AE57CEE158EB9E700732E71 /* GISoloViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISoloViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6436791587E9C400558475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB8E13F158E8BF800B8A349 /* QuartzCore.framework in Frameworks */,
+				4A6436C31587F1F200558475 /* AVFoundation.framework in Frameworks */,
+				4A6436C11587F1E900558475 /* CoreMedia.framework in Frameworks */,
+				4A6436811587E9C400558475 /* UIKit.framework in Frameworks */,
+				4A6436831587E9C400558475 /* Foundation.framework in Frameworks */,
+				4A6436851587E9C400558475 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A043D3B1592D04A00C5F92F /* additionalguitar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = additionalguitar;
+			sourceTree = "<group>";
+		};
+		4A2742B415A291B300E35715 /* IntervalWhites */ = {
+			isa = PBXGroup;
+			children = (
+				4A37B8CB15A2A12200DB14B9 /* GIIntervalLogScaleH.png */,
+				4A37B8CC15A2A12200DB14B9 /* GIIntervalLogScale.png */,
+				4A2742B615A291C100E35715 /* GIIntervalBar.png */,
+				4A2742B715A291C100E35715 /* GIIntervalSound.png */,
+				4A2742B815A291C100E35715 /* GIIntervalSoundH.png */,
+				4A2742B915A291C100E35715 /* GIIntervalPlay.png */,
+				4A2742BA15A291C100E35715 /* GIIntervalPlayH.png */,
+				4A2742BB15A291C100E35715 /* GIIntervalSelectScale.png */,
+				4A2742BC15A291C100E35715 /* GIIntervalSelectScaleH.png */,
+				4A2742BD15A291C100E35715 /* GIIntervalBackground.png */,
+			);
+			name = IntervalWhites;
+			sourceTree = "<group>";
+		};
+		4A58352815883F2800DCE3BD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A58352915883F6200DCE3BD /* GIBarCreatorView.h */,
+				4A58352A15883F6200DCE3BD /* GIBarCreatorView.m */,
+				4A58352C1588487600DCE3BD /* GIPickerView.h */,
+				4A58352D1588487600DCE3BD /* GIPickerView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4A6436711587E9C400558475 = {
+			isa = PBXGroup;
+			children = (
+				4A6436861587E9C400558475 /* GuitarIdea */,
+				4A64367F1587E9C400558475 /* Frameworks */,
+				4A64367D1587E9C400558475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A64367D1587E9C400558475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A64367C1587E9C400558475 /* GuitarIdea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A64367F1587E9C400558475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8E13E158E8BF800B8A349 /* QuartzCore.framework */,
+				4A6436C21587F1F100558475 /* AVFoundation.framework */,
+				4A6436C01587F1E800558475 /* CoreMedia.framework */,
+				4A6436801587E9C400558475 /* UIKit.framework */,
+				4A6436821587E9C400558475 /* Foundation.framework */,
+				4A6436841587E9C400558475 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6436861587E9C400558475 /* GuitarIdea */ = {
+			isa = PBXGroup;
+			children = (
+				4A64368F1587E9C400558475 /* GIAppDelegate.h */,
+				4A6436901587E9C400558475 /* GIAppDelegate.m */,
+				4A8AEE1115A0A09A008B6AF7 /* GIMainMenuViewController.h */,
+				4A8AEE1215A0A09A008B6AF7 /* GIMainMenuViewController.m */,
+				4AE57CE9158EB9A900732E71 /* GISwitchViewController.h */,
+				4AE57CEA158EB9A900732E71 /* GISwitchViewController.m */,
+				4A8B7843159E418100FB031A /* IntervalTraining */,
+				4AE4B186158F8B4000E43742 /* Solo */,
+				4AE4B184158F8B1500E43742 /* Bar */,
+				4A6436871587E9C400558475 /* Supporting Files */,
+			);
+			path = GuitarIdea;
+			sourceTree = "<group>";
+		};
+		4A6436871587E9C400558475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6436BA1587F0E200558475 /* StaticObjects */,
+				4A64369A1587EBDE00558475 /* Constants */,
+				4A043D3B1592D04A00C5F92F /* additionalguitar */,
+				4A64369F1587EF4800558475 /* SoundFiles */,
+				4A6436881587E9C400558475 /* GuitarIdea-Info.plist */,
+				4A6436891587E9C400558475 /* InfoPlist.strings */,
+				4A64368C1587E9C400558475 /* main.m */,
+				4A64368E1587E9C400558475 /* GuitarIdea-Prefix.pch */,
+				4A189CEF1588FB3D00F2FB6B /* highlighted.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A64369A1587EBDE00558475 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4A64369E1587EE1E00558475 /* GITempoConstructs.h */,
+				4A64369D1587EE1E00558475 /* GITempoConstructs.m */,
+				4A64369B1587EC9700558475 /* GIScaleConstants.h */,
+				4A64369C1587EC9700558475 /* GIScaleConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		4A64369F1587EF4800558475 /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4A15350E159A1AB100E6C01F /* AGuiA#3.caf */,
+				4A153510159A1B2E00E6C01F /* AGuiA#4.caf */,
+				4A153511159A1B2E00E6C01F /* AGuiA3.caf */,
+				4A153512159A1B2E00E6C01F /* AGuiA4.caf */,
+				4A153513159A1B2E00E6C01F /* AGuiB3.caf */,
+				4A153514159A1B2E00E6C01F /* AGuiB4.caf */,
+				4A153515159A1B2E00E6C01F /* AGuiC#3.caf */,
+				4A153516159A1B2E00E6C01F /* AGuiC#4.caf */,
+				4A153517159A1B2E00E6C01F /* AGuiC3.caf */,
+				4A153518159A1B2E00E6C01F /* AGuiC4.caf */,
+				4A153519159A1B2E00E6C01F /* AGuiD#3.caf */,
+				4A15351A159A1B2E00E6C01F /* AGuiD#4.caf */,
+				4A15351B159A1B2E00E6C01F /* AGuiD3.caf */,
+				4A15351C159A1B2E00E6C01F /* AGuiD4.caf */,
+				4A15351D159A1B2E00E6C01F /* AGuiE3.caf */,
+				4A15351E159A1B2E00E6C01F /* AGuiE4.caf */,
+				4A15351F159A1B2E00E6C01F /* AGuiF#3.caf */,
+				4A153520159A1B2E00E6C01F /* AGuiF#4.caf */,
+				4A153521159A1B2E00E6C01F /* AGuiF3.caf */,
+				4A153522159A1B2E00E6C01F /* AGuiF4.caf */,
+				4A153523159A1B2E00E6C01F /* AGuiG#3.caf */,
+				4A153524159A1B2E00E6C01F /* AGuiG#4.caf */,
+				4A153525159A1B2E00E6C01F /* AGuiG3.caf */,
+				4A153526159A1B2E00E6C01F /* AGuiG4.caf */,
+				4A666DE3159A18510078401D /* EmptyCaf.caf */,
+				4A666DCB159A17BF0078401D /* C3.caf */,
+				4A666DCC159A17CC0078401D /* PiaA#3.caf */,
+				4A666DCD159A17CC0078401D /* PiaA3.caf */,
+				4A666DCE159A17CC0078401D /* PiaB3.caf */,
+				4A666DCF159A17CC0078401D /* PiaC#3.caf */,
+				4A666DD0159A17CC0078401D /* PiaD#3.caf */,
+				4A666DD1159A17CC0078401D /* PiaD3.caf */,
+				4A666DD2159A17CC0078401D /* PiaE3.caf */,
+				4A666DD3159A17CC0078401D /* PiaF#3.caf */,
+				4A666DD4159A17CC0078401D /* PiaF3.caf */,
+				4A666DD5159A17CC0078401D /* PiaG#3.caf */,
+				4A666DD6159A17CC0078401D /* PiaG3.caf */,
+			);
+			name = SoundFiles;
+			sourceTree = "<group>";
+		};
+		4A6436BA1587F0E200558475 /* StaticObjects */ = {
+			isa = PBXGroup;
+			children = (
+				4A6436BD1587F1A500558475 /* GIChroma.h */,
+				4A6436BE1587F1A500558475 /* GIChroma.m */,
+				4AAF0F18159262CF00F4AC7B /* GIGuitarSource.h */,
+				4AAF0F19159262CF00F4AC7B /* GIGuitarSource.m */,
+				4A58352415883A5700DCE3BD /* GIChordLibrary.h */,
+				4A58352515883A5700DCE3BD /* GIChordLibrary.m */,
+				4A58352015882F8000DCE3BD /* GIScaleSelector.h */,
+				4A58352115882F8000DCE3BD /* GIScaleSelector.m */,
+				4A0DF450158CFB7E00A84894 /* GIColorsAndViews.h */,
+				4A0DF451158CFB7E00A84894 /* GIColorsAndViews.m */,
+				4A98598015A2BAB60089F3F3 /* ReplaceBar */,
+				4A2742B415A291B300E35715 /* IntervalWhites */,
+				4AC3392B15A279A400245CF3 /* GISoloOptionsCancel.png */,
+				4AC3392C15A279A400245CF3 /* GISoloOptionsCancelH.png */,
+				4AC3392915A2799800245CF3 /* GISoloOptionsMM.png */,
+				4AC3392715A2799200245CF3 /* GISoloViewOptionsMMH.png */,
+				4AC3392215A2797C00245CF3 /* GISoloOptionsSave.png */,
+				4AC3392315A2797C00245CF3 /* GISoloOptionsSaveH.png */,
+				4A2497DB15A1F8E900F119DD /* GIBackground1.png */,
+				4ADD089B15A26CCB004AAB1D /* GISoloViewBackground.png */,
+				4A7F244315A21C5500BB808C /* Whites */,
+			);
+			name = StaticObjects;
+			sourceTree = "<group>";
+		};
+		4A7F244315A21C5500BB808C /* Whites */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8A41F15A2684B008640D8 /* SoloWhites */,
+				4AABAA5D15A23CBE002B61BF /* MoreWhites */,
+				4A2AF54115A21F2B009A75E1 /* BarGlare1.png */,
+			);
+			path = Whites;
+			sourceTree = "<group>";
+		};
+		4A8B7843159E418100FB031A /* IntervalTraining */ = {
+			isa = PBXGroup;
+			children = (
+				4A8B7845159E41D000FB031A /* GIIntervalTrainingViewController.h */,
+				4A8B7846159E41D000FB031A /* GIIntervalTrainingViewController.m */,
+				4A8B7848159E465200FB031A /* TrainingView */,
+			);
+			name = IntervalTraining;
+			sourceTree = "<group>";
+		};
+		4A8B7848159E465200FB031A /* TrainingView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TrainingView;
+			sourceTree = "<group>";
+		};
+		4A98598015A2BAB60089F3F3 /* ReplaceBar */ = {
+			isa = PBXGroup;
+			children = (
+				4A42C93615A8F69700685147 /* GIMMEarTwo.png */,
+				4A42C93715A8F69700685147 /* GIMMGetTwoH.png */,
+				4A42C92D15A8F4FD00685147 /* GIMMEar.png */,
+				4A42C92E15A8F4FD00685147 /* GIMMEarH.png */,
+				4AA5EE1C15A37054007F9B94 /* GIPreBarOptionsLH.png */,
+				4AA5EE1D15A37054007F9B94 /* GIPreBarOptionsL.png */,
+				4AA5EE1E15A37054007F9B94 /* GIPreBarOptionsQPH.png */,
+				4AA5EE1F15A37054007F9B94 /* GIPreBarOptionsQP.png */,
+				4AA5EE2015A37054007F9B94 /* GIPreBarOptionsNew.png */,
+				4AA5EE2115A37054007F9B94 /* GIPreBarOptionsNewH.png */,
+				4A98598215A2BBB30089F3F3 /* ReplaceBarWhites */,
+			);
+			name = ReplaceBar;
+			sourceTree = "<group>";
+		};
+		4A98598215A2BBB30089F3F3 /* ReplaceBarWhites */ = {
+			isa = PBXGroup;
+			children = (
+				4A98598315A2BBB30089F3F3 /* GIBarBackgroundRedo.png */,
+				4A98598415A2BBB30089F3F3 /* GIC.png */,
+				4A98598515A2BBB30089F3F3 /* GICH.png */,
+				4A98598615A2BBB30089F3F3 /* GIK.png */,
+				4A98598715A2BBB30089F3F3 /* GIKH.png */,
+				4A98598815A2BBB30089F3F3 /* GILC.png */,
+				4A98598915A2BBB30089F3F3 /* GILCH.png */,
+				4A98598A15A2BBB30089F3F3 /* GILK.png */,
+				4A98598B15A2BBB30089F3F3 /* GILKH.png */,
+				4A98598C15A2BBB30089F3F3 /* GILT.png */,
+				4A98598D15A2BBB30089F3F3 /* GILTH.png */,
+				4A98598E15A2BBB30089F3F3 /* GIOR.png */,
+				4A98598F15A2BBB30089F3F3 /* GIORH.png */,
+				4A98599015A2BBB30089F3F3 /* GIPB.png */,
+				4A98599215A2BBB30089F3F3 /* GIPBH.png */,
+				4A98599315A2BBB30089F3F3 /* GISmallB.png */,
+				4A98599415A2BBB30089F3F3 /* GISmallBH.png */,
+				4A98599515A2BBB30089F3F3 /* GISmallMM.png */,
+				4A98599615A2BBB30089F3F3 /* GISmallMMH.png */,
+				4A98599715A2BBB30089F3F3 /* GISmallNB.png */,
+				4A98599815A2BBB30089F3F3 /* GISmallNBH.png */,
+				4A98599915A2BBB30089F3F3 /* GISmallST.png */,
+				4A98599A15A2BBB30089F3F3 /* GISmallSTH.png */,
+			);
+			path = ReplaceBarWhites;
+			sourceTree = "<group>";
+		};
+		4AABAA5D15A23CBE002B61BF /* MoreWhites */ = {
+			isa = PBXGroup;
+			children = (
+				4AABAA5F15A23CD8002B61BF /* GIBackW.png */,
+				4AABAA6015A23CD8002B61BF /* GIBackWPressed.png */,
+				4AC7726115A23E0F00D669A6 /* GISetTempoWh.png */,
+				4AC7726215A23E0F00D669A6 /* GISetTempoWhPressed.png */,
+				4AC7726615A23E2D00D669A6 /* GIReadyWh.png */,
+				4AC7726715A23E2D00D669A6 /* GIReadyWhPressed.png */,
+				4AC7726A15A23E5000D669A6 /* GIMainMenuWh.png */,
+				4AC7726B15A23E5000D669A6 /* GIMainMenuWhPressed.png */,
+				4AC7726C15A23E5000D669A6 /* GINewBarWh.png */,
+				4AC7726D15A23E5000D669A6 /* GINewBarWhPressed.png */,
+			);
+			name = MoreWhites;
+			sourceTree = "<group>";
+		};
+		4AB8A41F15A2684B008640D8 /* SoloWhites */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8A42115A26857008640D8 /* GISoloViewBar.png */,
+				4AB8A42215A26857008640D8 /* GISoloViewOptions.png */,
+				4AB8A42315A26857008640D8 /* GISoloViewOptionsPressed.png */,
+				4AB8A42415A26857008640D8 /* GISoloViewPlay.png */,
+				4AB8A42515A26857008640D8 /* GISoloViewPlayPressed.png */,
+			);
+			name = SoloWhites;
+			sourceTree = "<group>";
+		};
+		4AB8E144158EA7F600B8A349 /* FretView */ = {
+			isa = PBXGroup;
+			children = (
+				4AB8E141158EA7EC00B8A349 /* GIFretView.h */,
+				4AB8E142158EA7EC00B8A349 /* GIFretView.m */,
+				4AE4B187158F8E4F00E43742 /* GIFretBoardGraphics.h */,
+				4AE4B188158F8E4F00E43742 /* GIFretBoardGraphics.m */,
+			);
+			name = FretView;
+			sourceTree = "<group>";
+		};
+		4AE4B184158F8B1500E43742 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				4A6436971587EAC800558475 /* GIViewController.h */,
+				4A6436981587EAC800558475 /* GIViewController.m */,
+				4A58352815883F2800DCE3BD /* Views */,
+			);
+			name = Bar;
+			sourceTree = "<group>";
+		};
+		4AE4B186158F8B4000E43742 /* Solo */ = {
+			isa = PBXGroup;
+			children = (
+				4AE57CED158EB9E700732E71 /* GISoloViewController.h */,
+				4AE57CEE158EB9E700732E71 /* GISoloViewController.m */,
+				4AB8E144158EA7F600B8A349 /* FretView */,
+			);
+			name = Solo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A64367B1587E9C400558475 /* GuitarIdea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6436941587E9C400558475 /* Build configuration list for PBXNativeTarget "GuitarIdea" */;
+			buildPhases = (
+				4A6436781587E9C400558475 /* Sources */,
+				4A6436791587E9C400558475 /* Frameworks */,
+				4A64367A1587E9C400558475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuitarIdea;
+			productName = GuitarIdea;
+			productReference = 4A64367C1587E9C400558475 /* GuitarIdea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6436731587E9C400558475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GI;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Southern Illinois University";
+			};
+			buildConfigurationList = 4A6436761587E9C400558475 /* Build configuration list for PBXProject "GuitarIdea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A6436711587E9C400558475;
+			productRefGroup = 4A64367D1587E9C400558475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A64367B1587E9C400558475 /* GuitarIdea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A64367A1587E9C400558475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A64368B1587E9C400558475 /* InfoPlist.strings in Resources */,
+				4A189CF01588FB3D00F2FB6B /* highlighted.png in Resources */,
+				4A666DE4159A18560078401D /* EmptyCaf.caf in Resources */,
+				4A666DD7159A17E30078401D /* C3.caf in Resources */,
+				4A666DD8159A17E30078401D /* PiaA#3.caf in Resources */,
+				4A666DD9159A17E30078401D /* PiaA3.caf in Resources */,
+				4A666DDA159A17E30078401D /* PiaB3.caf in Resources */,
+				4A666DDB159A17E30078401D /* PiaC#3.caf in Resources */,
+				4A666DDC159A17E30078401D /* PiaD#3.caf in Resources */,
+				4A666DDD159A17E30078401D /* PiaD3.caf in Resources */,
+				4A666DDE159A17E30078401D /* PiaE3.caf in Resources */,
+				4A666DDF159A17E30078401D /* PiaF#3.caf in Resources */,
+				4A666DE0159A17E30078401D /* PiaF3.caf in Resources */,
+				4A666DE1159A17E30078401D /* PiaG#3.caf in Resources */,
+				4A666DE2159A17E30078401D /* PiaG3.caf in Resources */,
+				4A153527159A1B3C00E6C01F /* AGuiA#3.caf in Resources */,
+				4A153528159A1B3C00E6C01F /* AGuiA#4.caf in Resources */,
+				4A153529159A1B3C00E6C01F /* AGuiA3.caf in Resources */,
+				4A15352A159A1B3C00E6C01F /* AGuiA4.caf in Resources */,
+				4A15352B159A1B3C00E6C01F /* AGuiB3.caf in Resources */,
+				4A15352C159A1B3C00E6C01F /* AGuiB4.caf in Resources */,
+				4A15352D159A1B3C00E6C01F /* AGuiC#3.caf in Resources */,
+				4A15352E159A1B3C00E6C01F /* AGuiC#4.caf in Resources */,
+				4A15352F159A1B3C00E6C01F /* AGuiC3.caf in Resources */,
+				4A153530159A1B3C00E6C01F /* AGuiC4.caf in Resources */,
+				4A153531159A1B3C00E6C01F /* AGuiD#3.caf in Resources */,
+				4A153532159A1B3C00E6C01F /* AGuiD#4.caf in Resources */,
+				4A153533159A1B3C00E6C01F /* AGuiD3.caf in Resources */,
+				4A153534159A1B3C00E6C01F /* AGuiD4.caf in Resources */,
+				4A153535159A1B3C00E6C01F /* AGuiE3.caf in Resources */,
+				4A153536159A1B3C00E6C01F /* AGuiE4.caf in Resources */,
+				4A153537159A1B3C00E6C01F /* AGuiF#3.caf in Resources */,
+				4A153538159A1B3C00E6C01F /* AGuiF#4.caf in Resources */,
+				4A153539159A1B3C00E6C01F /* AGuiF3.caf in Resources */,
+				4A15353A159A1B3C00E6C01F /* AGuiF4.caf in Resources */,
+				4A15353B159A1B3C00E6C01F /* AGuiG#3.caf in Resources */,
+				4A15353C159A1B3C00E6C01F /* AGuiG#4.caf in Resources */,
+				4A15353D159A1B3C00E6C01F /* AGuiG3.caf in Resources */,
+				4A15353E159A1B3C00E6C01F /* AGuiG4.caf in Resources */,
+				4A2497E915A1FF5F00F119DD /* GIBackground1.png in Resources */,
+				4A2AF54215A21F2B009A75E1 /* BarGlare1.png in Resources */,
+				4AABAA6115A23CD8002B61BF /* GIBackW.png in Resources */,
+				4AABAA6215A23CD8002B61BF /* GIBackWPressed.png in Resources */,
+				4AC7726315A23E0F00D669A6 /* GISetTempoWh.png in Resources */,
+				4AC7726415A23E0F00D669A6 /* GISetTempoWhPressed.png in Resources */,
+				4AC7726815A23E2D00D669A6 /* GIReadyWh.png in Resources */,
+				4AC7726915A23E2D00D669A6 /* GIReadyWhPressed.png in Resources */,
+				4AC7726E15A23E5000D669A6 /* GIMainMenuWh.png in Resources */,
+				4AC7726F15A23E5000D669A6 /* GIMainMenuWhPressed.png in Resources */,
+				4AC7727015A23E5000D669A6 /* GINewBarWh.png in Resources */,
+				4AC7727115A23E5000D669A6 /* GINewBarWhPressed.png in Resources */,
+				4AB8A42615A26857008640D8 /* GISoloViewBar.png in Resources */,
+				4AB8A42715A26857008640D8 /* GISoloViewOptions.png in Resources */,
+				4AB8A42815A26857008640D8 /* GISoloViewOptionsPressed.png in Resources */,
+				4AB8A42915A26857008640D8 /* GISoloViewPlay.png in Resources */,
+				4AB8A42A15A26857008640D8 /* GISoloViewPlayPressed.png in Resources */,
+				4ADD089C15A26CCB004AAB1D /* GISoloViewBackground.png in Resources */,
+				4AC3392415A2797C00245CF3 /* GISoloOptionsSave.png in Resources */,
+				4AC3392515A2797C00245CF3 /* GISoloOptionsSaveH.png in Resources */,
+				4AC3392815A2799200245CF3 /* GISoloViewOptionsMMH.png in Resources */,
+				4AC3392A15A2799800245CF3 /* GISoloOptionsMM.png in Resources */,
+				4AC3392D15A279A400245CF3 /* GISoloOptionsCancel.png in Resources */,
+				4AC3392E15A279A400245CF3 /* GISoloOptionsCancelH.png in Resources */,
+				4A2742BE15A291C100E35715 /* GIIntervalBar.png in Resources */,
+				4A2742BF15A291C100E35715 /* GIIntervalSound.png in Resources */,
+				4A2742C015A291C100E35715 /* GIIntervalSoundH.png in Resources */,
+				4A2742C115A291C100E35715 /* GIIntervalPlay.png in Resources */,
+				4A2742C215A291C100E35715 /* GIIntervalPlayH.png in Resources */,
+				4A2742C315A291C100E35715 /* GIIntervalSelectScale.png in Resources */,
+				4A2742C415A291C100E35715 /* GIIntervalSelectScaleH.png in Resources */,
+				4A2742C515A291C100E35715 /* GIIntervalBackground.png in Resources */,
+				4A37B8CD15A2A12200DB14B9 /* GIIntervalLogScaleH.png in Resources */,
+				4A37B8CE15A2A12200DB14B9 /* GIIntervalLogScale.png in Resources */,
+				4A98599B15A2BBB30089F3F3 /* GIBarBackgroundRedo.png in Resources */,
+				4A98599C15A2BBB30089F3F3 /* GIC.png in Resources */,
+				4A98599D15A2BBB30089F3F3 /* GICH.png in Resources */,
+				4A98599E15A2BBB30089F3F3 /* GIK.png in Resources */,
+				4A98599F15A2BBB30089F3F3 /* GIKH.png in Resources */,
+				4A9859A015A2BBB30089F3F3 /* GILC.png in Resources */,
+				4A9859A115A2BBB30089F3F3 /* GILCH.png in Resources */,
+				4A9859A215A2BBB30089F3F3 /* GILK.png in Resources */,
+				4A9859A315A2BBB30089F3F3 /* GILKH.png in Resources */,
+				4A9859A415A2BBB30089F3F3 /* GILT.png in Resources */,
+				4A9859A515A2BBB30089F3F3 /* GILTH.png in Resources */,
+				4A9859A615A2BBB30089F3F3 /* GIOR.png in Resources */,
+				4A9859A715A2BBB30089F3F3 /* GIORH.png in Resources */,
+				4A9859A815A2BBB30089F3F3 /* GIPB.png in Resources */,
+				4A9859AA15A2BBB30089F3F3 /* GIPBH.png in Resources */,
+				4A9859AB15A2BBB30089F3F3 /* GISmallB.png in Resources */,
+				4A9859AC15A2BBB30089F3F3 /* GISmallBH.png in Resources */,
+				4A9859AD15A2BBB30089F3F3 /* GISmallMM.png in Resources */,
+				4A9859AE15A2BBB30089F3F3 /* GISmallMMH.png in Resources */,
+				4A9859AF15A2BBB30089F3F3 /* GISmallNB.png in Resources */,
+				4A9859B015A2BBB30089F3F3 /* GISmallNBH.png in Resources */,
+				4A9859B115A2BBB30089F3F3 /* GISmallST.png in Resources */,
+				4A9859B215A2BBB30089F3F3 /* GISmallSTH.png in Resources */,
+				4AA5EE2215A37054007F9B94 /* GIPreBarOptionsLH.png in Resources */,
+				4AA5EE2315A37054007F9B94 /* GIPreBarOptionsL.png in Resources */,
+				4AA5EE2415A37054007F9B94 /* GIPreBarOptionsQPH.png in Resources */,
+				4AA5EE2515A37054007F9B94 /* GIPreBarOptionsQP.png in Resources */,
+				4AA5EE2615A37054007F9B94 /* GIPreBarOptionsNew.png in Resources */,
+				4AA5EE2715A37054007F9B94 /* GIPreBarOptionsNewH.png in Resources */,
+				4A42C93115A8F4FD00685147 /* GIMMEar.png in Resources */,
+				4A42C93215A8F4FD00685147 /* GIMMEarH.png in Resources */,
+				4A42C93815A8F69700685147 /* GIMMEarTwo.png in Resources */,
+				4A42C93915A8F69700685147 /* GIMMGetTwoH.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6436781587E9C400558475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A64368D1587E9C400558475 /* main.m in Sources */,
+				4A6436911587E9C400558475 /* GIAppDelegate.m in Sources */,
+				4A6436991587EAC800558475 /* GIViewController.m in Sources */,
+				4A6436BF1587F1A500558475 /* GIChroma.m in Sources */,
+				4A58352215882F8000DCE3BD /* GIScaleSelector.m in Sources */,
+				4A58352615883A5700DCE3BD /* GIChordLibrary.m in Sources */,
+				4A58352B15883F6200DCE3BD /* GIBarCreatorView.m in Sources */,
+				4A868DB3158BF17500991E3B /* GITempoConstructs.m in Sources */,
+				4A868DB5158BF17700991E3B /* GIScaleConstants.m in Sources */,
+				4A58352E1588487600DCE3BD /* GIPickerView.m in Sources */,
+				4A0DF452158CFB7E00A84894 /* GIColorsAndViews.m in Sources */,
+				4AB8E143158EA7EC00B8A349 /* GIFretView.m in Sources */,
+				4AE57CEB158EB9A900732E71 /* GISwitchViewController.m in Sources */,
+				4AE57CEF158EB9E700732E71 /* GISoloViewController.m in Sources */,
+				4AE4B189158F8E4F00E43742 /* GIFretBoardGraphics.m in Sources */,
+				4AAF0F1A159262CF00F4AC7B /* GIGuitarSource.m in Sources */,
+				4A8B7847159E41D000FB031A /* GIIntervalTrainingViewController.m in Sources */,
+				4A8AEE1315A0A09A008B6AF7 /* GIMainMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A6436891587E9C400558475 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A64368A1587E9C400558475 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6436921587E9C400558475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A6436931587E9C400558475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A6436951587E9C400558475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuitarIdea/GuitarIdea-Prefix.pch";
+				INFOPLIST_FILE = "GuitarIdea/GuitarIdea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A6436961587E9C400558475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuitarIdea/GuitarIdea-Prefix.pch";
+				INFOPLIST_FILE = "GuitarIdea/GuitarIdea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6436761587E9C400558475 /* Build configuration list for PBXProject "GuitarIdea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6436921587E9C400558475 /* Debug */,
+				4A6436931587E9C400558475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6436941587E9C400558475 /* Build configuration list for PBXNativeTarget "GuitarIdea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6436951587E9C400558475 /* Debug */,
+				4A6436961587E9C400558475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6436731587E9C400558475 /* Project object */;
+}
