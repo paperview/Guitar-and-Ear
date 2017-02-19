@@ -1,3 +1,1 @@
-This is the first iPhone application that I made after teaching myself Objective-C.  There are two main features.  The ear-training feature works perfectly on both the device and the simulator, and is available for free in the App Store.  The "get ideas" feature runs smooth as silk on the simulator, but not so much on the device, so I did not include it in the version on the App Store.  I believe it is slow due to the limitations of the audio hardware on the device, though, I could be wrong.  I made nearly all of it before I purchased the full iOS developer status from Apple, so I could not test on the device until it was nearly done.  Therefor, I learned the hard way to ALWAYS TEST ON A DEVICE. It is not in my best interest right now to redo it entirely or port it to Mac.  It was a lot of fun though, here it is!
-
-Tutorials for how to use the App are available at phillippape.com
+First thing I ever made, just for fun.
